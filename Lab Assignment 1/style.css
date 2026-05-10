@@ -1,6 +1,125 @@
+       
+.table1,.table2{
+    border: 1px solid black;
+    border-radius:5px;
+    border-collapse: collapse;
+    width: 75%;
+    margin: auto;
+    background-color: white;
+   
+}
+
+
+
+tr,th,td{
+    border: 1px solid black;
+    
+}
+
+
+.table1{
+    margin-top: 15%;
+    margin-bottom: 10%;
+}
+
+
+
+.table2{
+    margin-bottom: 10%;
+}
+
+
+
+
+
 #cntr{
     text-align: center;
+
 }
+
+
+
+
+
+.recess{
+   font-family: cursive;
+   font-style: italic;
+   writing-mode: vertical-lr;
+   text-orientation: upright;
+   letter-spacing: 4px;
+}
+
+
+
+.bau-logo{
+    width:100px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+
+
+}
+
+
+.uni-name{
+
+    background-color: #4287f5;
+    color: white;
+    display: inline-block;
+    padding: 10px 15px;
+    font-family: cursive;
+    font-size: 150%;
+    border-radius: 25px;
+
+}
+
+.uni-name:hover{
+    background-color: white;
+    color: #4287f5;
+}
+
+
+
+.caption1{
+    color: black;
+    background-color: yellow;
+}
+.caption1:hover{
+    color: red;
+    background-color: white;
+}
+
+
+
+.table1 tr:nth-child(2n+2){
+    background-color: #4287f5;
+
+}
+
+.table1 tr:nth-child(2n+1){
+    background-color:wheat;
+
+}
+
+.table1 td:hover{
+    background-color: greenyellow;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
