@@ -1,11 +1,10 @@
        
 .table1,.table2{
-    border: 1px solid black;
+    border: 2px solid rgb(56, 5, 176);
     border-radius:5px;
     border-collapse: collapse;
     width: 75%;
     margin: auto;
-    background-color: white;
    
 }
 
@@ -19,15 +18,8 @@ tr,th,td{
 
 .table1{
     margin-top: 15%;
-    margin-bottom: 10%;
+    margin-bottom:50px;
 }
-
-
-
-.table2{
-    margin-bottom: 10%;
-}
-
 
 
 
@@ -44,6 +36,7 @@ tr,th,td{
 .recess{
    font-family: cursive;
    font-style: italic;
+   color: white;
    writing-mode: vertical-lr;
    text-orientation: upright;
    letter-spacing: 4px;
@@ -52,10 +45,10 @@ tr,th,td{
 
 
 .bau-logo{
-    width:100px;
+    width:150px;
     position: absolute;
     top: 20px;
-    right: 20px;
+    right: 200px;
 
 
 }
@@ -85,27 +78,40 @@ tr,th,td{
     background-color: yellow;
 }
 .caption1:hover{
-    color: red;
-    background-color: white;
+    color: white;
+    background-color: red;
 }
 
 
 
-.table1 tr:nth-child(2n+2){
-    background-color: #4287f5;
 
+.table1 tr:nth-child(2n+2) {
+    background-color: #bbb7b7; 
 }
 
-.table1 tr:nth-child(2n+1){
-    background-color:wheat;
-
+.table1 tr:nth-child(2n+1) {
+    background-color: #d1e3f8; 
 }
+
+
+.table1 tr:nth-child(1) {
+    background-color: #1a3c6d !important; 
+    color: white;
+}
+
+
+
 
 .table1 td:hover{
     background-color: greenyellow;
 
 }
 
+.table1 th:hover{
+    background-color: purple;
+    color: white;
+
+}
 
 
 
@@ -115,11 +121,90 @@ tr,th,td{
 
 
 
+.table2{
+    background-image: url('photos/bijoy71.jpg');
+    background-position: center;
+    background-size: cover;
+    
+
+}
+
+
+.table2 th,td{
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+
+.table2 td:hover{
+    background-color: greenyellow;
+
+}
+
+.table2 th:hover{
+    background-color: purple;
+    color: white;
+
+}
 
 
 
 
 
+.div1{
+    margin: auto;
+    background-color:whitesmoke;
+    margin-top: 0px;
+    margin-bottom:50px;
+    width: 75%;
+    border: 1px solid white;
+    border-radius: 75px 25px;
+    text-align: center;
+}
+
+
+
+         /* Between two tables */
+.img-middle{
+    width: 250px;
+    height: 250px;
+    border: 1px solid white;  
+    border-radius: 75px 25px;
+    padding: 2px;
+    margin: 13px;
+}
+
+
+
+.div-last{
+    border: 2px solid navy;
+    border-radius: 25px;
+    text-align: center;
+    background-color:silver;
+
+    padding: 25px;
+    margin: 20px 10px;
+    width: 30%;
+}
+
+
+
+.owner{
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 20px;
+    margin-left: 20px;
+    background-color: white;
+    padding: 3px;
+    border-radius: 15px;
+
+}
+
+
+.owner:hover{
+    color: white;
+    background-color: black;
+}
 
 
 
